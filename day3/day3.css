@@ -1,0 +1,303 @@
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+.nav-bar-parent{
+    display:flex;
+    gap: 100px;
+}
+
+.navbar{
+    width: 250px;
+    background-color: white;
+    height: 785px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #EFEFEFEF;
+}
+
+.insta-logo{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.img{
+    width: 60%;
+}
+
+
+.btn{
+    background-color: white;
+    margin: 5px 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;    
+}
+
+.btn1{
+    padding-right: 135px;
+}
+
+.btn2{
+    padding-right: 127px;
+}
+
+.btn3{
+    padding-right: 123px;
+}
+
+.btn4{
+    padding-right: 137px;
+}
+
+.btn5{
+    padding-right: 105px;
+}
+
+.btn6{
+    padding-right: 90px;
+}
+
+.btn7{
+    padding-right: 129px;
+}
+
+.btn8{
+    padding-right: 129px;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover{
+    cursor: pointer;
+    background-color: #EFEFEFEF;
+}
+
+.Home{
+    margin-right:15px;
+}
+
+
+.dp{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+
+
+.content{
+    display: flex;
+
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    /* background-color: black; */
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.google-dp{
+    margin: 10px auto;
+    width: 75%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.profile-info{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    margin: 35px 35px 0px 35px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.name{
+    margin: 10px 7px;
+    padding-bottom: 5px;
+
+    
+}
+
+.title{
+    font-size: 20px;
+}
+
+.title:hover{
+    cursor: pointer;
+}
+
+.follow{
+    border: none;
+    background-color: #0095f6;
+    width: 90px;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.follow:hover{
+    cursor: pointer;
+    background-color: #006cb4;
+}
+
+.msg{
+    border: none;
+    background-color: #EFEFEF;
+    width: 90px;
+    color: black;
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    /* font-weight: 550; */
+}
+
+.msg:hover{
+    cursor: pointer;
+    background-color: #cac9c9;
+}
+
+.add{
+    border: none;
+    background-color: #EFEFEF;
+    color: black;
+    padding: 6.5px 10px;
+    border-radius: 8px;
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: #cac9c9;
+}
+
+.dots:hover{
+    cursor: pointer;
+}
+
+.profile-stats{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 40px; */
+    align-items: center;
+    margin: 0px 0px 0px 35px;
+}
+
+.posts{
+    font-weight: 600;
+    padding-left: 8px;
+    margin-right: 5px;
+}
+
+.para{
+    margin-right: 30px;
+}
+.followers{
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.following{
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.followers:hover, .following:hover{
+    cursor: pointer;
+}
+
+.Google{
+    font-weight: 600;
+    margin: 0px 35px 0px 35px;
+    padding-left: 7px;
+}
+
+.thread{
+    margin: 4px 35px 0px 42px;
+    padding: 3px 5px;
+    display: flex;
+    border: none;
+    background-color: #EFEFEFEF;
+    border-radius: 50px;
+}
+
+.thread:hover{
+    cursor: pointer;
+    background-color: #cac9c9;
+}
+
+.thread-google{
+    margin-left: 2px;
+}
+
+
+.text1{
+    color: #737373;
+    font-size: 14px;
+    margin: 4px 35px 0px 42px;
+}
+
+.text2{
+    color: black;
+    font-size: 14px;
+    margin: 2px 35px 0px 42px;
+}
+
+.bio-link{
+    color: black;
+    font-size: 14px;
+    margin: 2px 35px 0px 42px;
+}
+
+.link-bio{
+    color: #00376B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.flwed-by{
+    display: flex;
+    margin: 2px 35px 0px 42px;
+    font-size: 12px;
+    gap: 4px;
+}
+
+.light{
+    color: #737373;
+    font-weight: 600;
+}
+
+.dark{
+    color: black;
+    font-weight: 600;
+}
+
+.light:hover, .dark:hover{
+    cursor: pointer;
+}
