@@ -2,7 +2,7 @@
 
 ## DAY-3 & 4 <br>
 
-#Instagram Clone Results
+### Instagram Clone Results
 
 ![Insta-Clone](day4-1.png) <br>
 
